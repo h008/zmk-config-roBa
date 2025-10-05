@@ -11,7 +11,6 @@
 &trackball {
     // automouse-layer = <4>;
     // scroll-layers = <5>;
-
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -91,11 +90,13 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH            &kp DOLLAR       &kp PERCENT                         &kp CARET       &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans           &trans       &mt LALT BACKSLASH  &mt LCTRL SLASH  &mt LGUI GRAVE  &trans      &trans  &mt RGUI MINUS  &mt RCTRL EQUAL  &mt RALT SQT       &kp LEFT_BRACKET      &mt RSHFT RIGHT_BRACKET
-&trans           &trans       &kp PIPE            &kp QUESTION     &kp TILDE       &trans      &trans  &kp UNDERSCORE  &kp PLUS         &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&trans           &trans       &trans              &trans           &trans          &trans      &trans  &trans                                                                    &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH            &kp DOLLAR       &kp PERCENT                                  &kp CARET       &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans           &trans       &mt LALT BACKSLASH  &mt LCTRL SLASH  &mt LGUI GRAVE  &trans      &kp PRINTSCREEN  &mt RGUI MINUS  &mt RCTRL EQUAL  &mt RALT SQT       &kp LEFT_BRACKET      &mt RSHFT RIGHT_BRACKET
+&trans           &trans       &kp PIPE            &kp QUESTION     &kp TILDE       &trans      &trans           &kp UNDERSCORE  &kp PLUS         &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&trans           &trans       &trans              &trans           &trans          &trans      &trans           &trans                                                                    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         NUM {
