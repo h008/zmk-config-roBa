@@ -124,7 +124,7 @@
 &trans          &mmv MOVE_UP      &trans           &msc SCRL_UP      &trans                                   &trans          &trans         &trans        &trans     &mkp LCLK
 &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp MB1      &mkp MB2  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
 &trans          &mmv MOVE_Y(100)  &trans           &msc SCRL_DOWN    &trans           &trans        &trans    &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &mkp RCLK
-&trans          &trans            &trans           &kp INT_MUHENKAN  &kp INT_HENKAN   &trans        &trans    &trans                                                  &mo 6
+&trans          &trans            &trans           &kp INT_MUHENKAN  &kp INT_HENKAN   &trans        &mo 6     &trans                                                  &trans
             >;
         };
 
